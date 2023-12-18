@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+:root{
+    --font1: 'Rubik', Arial;
+    --font2: Arial;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--font2);
+}
+
+header{
+    font-family: var(--font1);
+    background-color: #2500E0;
+    color: white;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+header h1 {
+    padding-top: 20px;
+    font-size: 36px; /* Ajuste o tamanho da fonte conforme necessário */
+    font-weight: bold; /* Deixa o texto em negrito */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.323); /* Adiciona uma sombra sutil */
+    letter-spacing: 1px; /* Ajusta o espaçamento entre letras */
+}
+
+#container{
+    padding: 20px;
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+#trocarConversao {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+input[type="number"] {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #2500E0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1a00a6;
+}
+
+#res {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
